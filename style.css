@@ -99,7 +99,8 @@ main{
 }
 .system-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:first baseline;
+    gap: 30px;
     
 }
 .system-content{
@@ -156,6 +157,60 @@ main{
     color:rgba(13, 19, 33, 1.00);
     font-weight: bold;
 }
+
+.support{
+    background-image:url(./assets/handshake.jpg);
+    background-size: cover;
+    width: 1140px;
+    height: 313px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    border: none;
+    
+}
+.support-content{
+    text-align: center;
+    padding: 48px 64px;
+    
+
+}
+.support-content h3{
+   color: rgba(255, 255, 255, 1.00);
+    font-weight: bold;
+    font-size: 32px;
+}
+.support-content p{
+    color:white;
+    
+}
+
+.support-content input{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+}
+.support-content button{
+    width:84px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+.input-box{
+    margin-top: 34px;
+}
+.support{
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 
