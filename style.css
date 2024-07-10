@@ -117,6 +117,9 @@ main{
 .system-content{
     max-width: 477px;
 }
+.hurry{
+    color:rgba(13, 19, 33, 0.7);
+}
 
 .web-container-2{
     display: flex;
@@ -225,6 +228,9 @@ main{
 }
 footer{
     margin-top: 80px;
+    border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
 .footer-icon a {
     margin: 0 10px;/
