@@ -31,6 +31,15 @@ main{
     padding: 0 144px 0 144px;
 }
 
+.primary-btn{
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px;
+    color: rgba(13, 19, 33, 1.00);
+    font-weight: 600;
+
+}
+
 
 /* banner styles */
 .banner{
@@ -55,20 +64,22 @@ main{
     font-size: 45px;
     font-weight: bolder;
 }
-.secondary-btn{
+
+.secondary-btn {
     height: 66px;
-    width:266px;
+    width: 266px;
     border-radius: 8px;
-    border:none;
+    border: none;
     background-color: rgba(13, 19, 33, 1.00);
-    color:white;
+    color: white;
     font-weight: 600;
     font-size: 20px;
     margin-top: 32px;
-    
-
-
-}
+    text-decoration: none; 
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center;
+ } 
 
 /* section web styles */
 .web-container{
@@ -202,12 +213,21 @@ main{
     margin-top: 34px;
 }
 .support{
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .footer{
     display: flex;
     justify-content: space-between;
+    padding: 32px 150px;
+    gap: 100px;
+    
+}
+footer{
+    margin-top: 80px;
+}
+.footer-icon a {
+    margin: 0 10px;/
 }
 
 
