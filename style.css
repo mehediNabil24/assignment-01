@@ -13,6 +13,14 @@
 .description{
     color:rgba(13, 19, 33, 0.7)
 }
+main{
+    max-width: 1140px;
+    margin:0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.section-description{
+    text-align:center;
+}
 
 
 /* banner styles */
@@ -28,7 +36,7 @@
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
-    text-align: center; /
+    text-align: center; 
     
     
 
@@ -52,3 +60,59 @@
 
 
 }
+
+/* section web styles */
+.web-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+
+}
+.web-column {
+    
+    max-width: 477px;
+    
+  
+
+}
+
+.web-development{
+    padding: 80px 97px;
+    margin-top: 118px;
+}
+.section-title{
+    text-align: center;
+}
+.system-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.system-content{
+    max-width: 477px;
+}
+
+.web-container-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 97px;
+}
+.video-container{
+    padding: 0 144px;
+
+        }
+
+.pg-video{
+    width:100%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
